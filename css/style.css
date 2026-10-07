@@ -37,7 +37,8 @@ img { max-width: 100%; display: block; }
   border-bottom: 1px solid rgba(1,32,15,.08);
 }
 .nav-wrap { min-height: 82px; display:flex; align-items:center; justify-content:space-between; gap:30px; }
-.brand img { width: 175px; height: auto; }
+.brand img { width: 175px; height: auto; border-radius: 14px; box-shadow: 0 6px 18px rgba(1,32,15,.12); transition: transform .25s ease, box-shadow .25s ease; }
+.brand:hover img { transform: translateY(-2px); box-shadow: 0 9px 22px rgba(1,32,15,.18); }
 .nav { display:flex; align-items:center; gap:28px; font-weight:600; font-size:14px; }
 .nav a:not(.nav-cta):hover { color: var(--lime-2); }
 .nav-cta { padding: 12px 18px; border-radius: 999px; background: var(--green); color: white; }
