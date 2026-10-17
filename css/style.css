@@ -36,8 +36,8 @@ img { max-width: 100%; display: block; }
   backdrop-filter: blur(14px);
   border-bottom: 1px solid rgba(1,32,15,.08);
 }
-.nav-wrap { min-height: 190px; display:flex; align-items:center; justify-content:space-between; gap:30px; }
-.brand img { width: 220px; height: 180px; object-fit: contain; border-radius: 14px; background: #fff; box-shadow: 0 6px 18px rgba(1,32,15,.12); transition: transform .25s ease, box-shadow .25s ease; }
+.nav-wrap { min-height: 160px; display:flex; align-items:center; justify-content:space-between; gap:30px; }
+.brand img { width: 220px; height: 150px; object-fit: contain; border-radius: 14px; background: #fff; box-shadow: 0 6px 18px rgba(1,32,15,.12); transition: transform .25s ease, box-shadow .25s ease; }
 .brand:hover img { transform: translateY(-2px); box-shadow: 0 9px 22px rgba(1,32,15,.18); }
 .nav { display:flex; align-items:center; gap:28px; font-weight:600; font-size:14px; }
 .nav a:not(.nav-cta):hover { color: var(--lime-2); }
@@ -187,7 +187,7 @@ h1 span { color: var(--lime-2); }
 }
 @media (max-width: 560px) {
   .container { width:min(100% - 28px, 1160px); }
-  .brand img { width:170px; height:150px; }
+  .brand img { width:170px; height:130px; }
   h1 { font-size:42px; }
   .hero-text { font-size:17px; }
   .hero-actions .btn { width:100%; }
